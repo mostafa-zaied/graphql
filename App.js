@@ -12,7 +12,7 @@ export const Example = () => {
  
   return (
     <View style={{flex:1}}> 
-      <Text style={{padding:50}}>Foo is {foo}.</Text>
+      <Text style={{padding:50}}>Helloo is {foo}.</Text>
       <Button onPress={() => setFoo(foo + 1)} title='Increase Foo!' />
     </View>
   )
